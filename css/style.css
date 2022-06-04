@@ -32,8 +32,8 @@ footer{
 }
 
 #home{
-    background-image: url('../img/bg-home.png');
-    background-position: center right;
+    background-image: url('../img/bg-home2.png');
+    background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
     min-width: 90vw;
@@ -49,6 +49,11 @@ footer{
 }
 
 @media (min-width: 576px) {
+    #home{
+        background-image: url('../img/bg-home.png');
+        background-position: center right;
+    }
+
     #who{
         min-height: 100vh;
         max-height: 100vh;
