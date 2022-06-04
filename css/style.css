@@ -6,6 +6,7 @@
     --five: #164C64;
 }
 
+/*Importação de fontes*/
 @font-face {
     font-family: 'source-sans';
     src: url('../fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf');
@@ -21,6 +22,45 @@
     src: url('../fonts/popfine/popfine-italic.ttf');
 }
 
+body{
+    height: 100vh;
+    font-family: 'source-sans' !important;
+}
+
+footer{
+    background-color: #272727;
+}
+
+#home{
+    background-image: url('../img/bg-home.png');
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 90vw;
+    min-height: 100vh;
+}
+
+#who{
+    background-color: #6CBFF0;
+}
+
+#products{
+    background-color: #59CAAB;
+}
+
+@media (min-width: 576px) {
+    #who{
+        min-height: 100vh;
+        max-height: 100vh;
+    }
+
+    #what-do{
+        min-height: 100vh;
+        max-height: 100vh;
+    }
+}
+
+/*Classes personalizadas*/
 .il-title-austria{
     line-height: 150%;
     word-spacing: 20px;
@@ -38,28 +78,6 @@
     font-size: 2em;
 }
 
-body{
-    height: 100vh;
-    font-family: 'source-sans' !important;
-}
-
-#home{
-    background-image: url('../img/marketing-digital-4.png');
-    background-position: center right;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-width: 90vw;
-    min-height: 100vh;
-}
-
-#quem-sou{
-    background-color: #6CBFF0;
-}
-
-#produtos{
-    background-color: #59CAAB;
-}
-
 .il-bg-fixed{
     background-attachment: fixed;
 }
@@ -68,10 +86,7 @@ body{
     font-size: 1.5em;
 }
 
-footer{
-    background-color: #272727;
-}
-
+/*Classes bootstrap*/
 .card{
     max-width: 300px !important;
     width: 100% !important;
@@ -79,16 +94,4 @@ footer{
 
 .card-img-top{
     max-height: 190px !important;
-}
-
-@media (min-width: 576px) {
-    #quem-sou{
-        min-height: 100vh;
-        max-height: 100vh;
-    }
-
-    #oque-faco{
-        min-height: 100vh;
-        max-height: 100vh;
-    }
 }
