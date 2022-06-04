@@ -1,0 +1,92 @@
+:root{
+    --color1: #FBC0C9;
+    --secundary: #97E8E9;
+    --third: #7BBBAD;
+    --four: #FF8A76;
+    --five: #164C64;
+}
+
+@font-face {
+    font-family: 'source-sans';
+    src: url('../fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'austria';
+    src: url('../fonts/austria/Austria.otf');
+}
+
+@font-face {
+    font-family: 'popfine';
+    src: url('../fonts/popfine/popfine-italic.ttf');
+}
+
+.il-title-austria{
+    line-height: 150%;
+    word-spacing: 20px;
+    font-size: 3em !important;
+    font-family: 'austria';
+}
+
+.il-title-popfine{
+    font-family: 'popfine';
+    font-size: 3.7em;
+}
+
+.il-title-popfin{
+    font-family: 'popfine';
+    font-size: 2em;
+}
+
+body{
+    height: 100vh;
+    font-family: 'source-sans' !important;
+}
+
+#home{
+    background-image: url('../img/marketing-digital-4.png');
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+#quem-sou{
+    background-color: #6CBFF0;
+}
+
+#produtos{
+    background-color: #59CAAB;
+}
+
+.il-bg-fixed{
+    background-attachment: fixed;
+}
+
+.il-icon{
+    font-size: 1.5em;
+}
+
+footer{
+    background-color: #272727;
+}
+
+.card{
+    width: 100% !important;
+}
+
+.card-img-top{
+    max-height: 190px !important;
+}
+
+@media (min-width: 576px) {
+    #quem-sou{
+        min-height: 100vh;
+        max-height: 100vh;
+    }
+
+    #oque-faco{
+        min-height: 100vh;
+        max-height: 100vh;
+    }
+}
