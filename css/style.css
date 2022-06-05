@@ -1,9 +1,10 @@
 :root{
-    --color1: #FBC0C9;
-    --secundary: #97E8E9;
-    --third: #7BBBAD;
-    --four: #FF8A76;
-    --five: #164C64;
+    --icon-color1: rgb(0, 210, 0);
+    --icon-color2: rgb(73, 85, 252);
+    --icon-color3: rgb(255, 127, 191);
+    --footer-color: #272727;
+    --color-1: #6CBFF0;
+    --color-2: #59CAAB;
 }
 
 /*Importação de fontes*/
@@ -28,7 +29,7 @@ body{
 }
 
 footer{
-    background-color: #272727;
+    background-color: var(--footer-color);
 }
 
 #home{
@@ -41,11 +42,11 @@ footer{
 }
 
 #who{
-    background-color: #6CBFF0;
+    background-color: var(--color-1);
 }
 
 #products{
-    background-color: #59CAAB;
+    background-color: var(--color-2)
 }
 
 @media (min-width: 576px) {
@@ -87,8 +88,60 @@ footer{
     background-attachment: fixed;
 }
 
-.il-icon{
+.il-icon-nav{
     font-size: 1.5em;
+}
+
+.il-icon-fixed{ 
+    padding: 10px;
+    position: fixed;
+    top: 85%;
+    right: 3%;
+    border-radius: 10px 0px 10px 0px;
+    background-color: rgba(255, 255, 255, 0.943);
+    color: var(--icon-color1);
+    font-size: 2.8em;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+/*Animações*/
+.il-icon-fixed:hover{ 
+    transform: scale(1.2);
+    padding: 10px;
+    position: fixed;
+    top: 85%;
+    right: 3%;
+    border-radius: 10px 0px 10px 0px;
+    background-color: rgba(255, 255, 255, 0.943);
+    color: var(--icon-color1);
+    font-size: 2.8em;
+}
+
+.fa-facebook{
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+.fa-facebook:hover{
+    color: var(--icon-color2);
+}
+
+.fa-instagram{
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+.fa-instagram:hover{
+    color: var(--icon-color3);
+}
+
+.fa-whatsapp{
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+.fa-whatsapp:hover{
+    color: var(--icon-color1);
 }
 
 /*Classes bootstrap*/
