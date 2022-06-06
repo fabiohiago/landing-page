@@ -54,16 +54,6 @@ footer{
         background-image: url('../img/bg-home.png');
         background-position: center right;
     }
-
-    #who{
-        min-height: 100vh;
-        max-height: 100vh;
-    }
-
-    #what-do{
-        min-height: 100vh;
-        max-height: 100vh;
-    }
 }
 
 /*Classes personalizadas*/
