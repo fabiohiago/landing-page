@@ -54,6 +54,10 @@ footer{
         background-image: url('../img/bg-home.png');
         background-position: center right;
     }
+
+    .slick-prev:before, .slick-next:before{
+        font-size: 80px !important;
+    }
 }
 
 /*Classes personalizadas*/
@@ -143,3 +147,4 @@ footer{
 .card-img-top{
     max-height: 190px !important;
 }
+
